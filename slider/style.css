@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.img-container {
+    display: flex;
+}
+
+.imgSlide {
+    width: 500px;
+    height: 350px;
+}
+
+.prev {
+    position: absolute;
+    left: 0;
+}
+
+.prev img {
+    width: 35px;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+}
